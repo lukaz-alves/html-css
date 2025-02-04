@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'jennifer';
+            src: url('fonts/a song for jennifer.ttf') format('truetype'), url('fonts/A Song For Jennifer italic.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                TIPOS DE FORMAT()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body {
+            font-family: 'jennifer', Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            font-style: italic;
+        }
+
+        h1 {
+            font-family: 'jennifer', Times, serif;
+            font-size: 3em;
+            font-weight: 200;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro dolorum accusamus optio esse ipsum fugiat animi rerum magni, soluta earum ullam vero blanditiis at eos repellendus assumenda provident quasi dolore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium temporibus vel eos, dignissimos iusto rerum impedit libero earum ea, et minima nobis dolores, eum laudantium laborum voluptas. Provident, optio labore.</p>
+</body>
+</html>

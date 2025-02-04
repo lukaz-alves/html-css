@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos localmente e externos</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <h2>Inserindo vídeos hospedados localmente</h2>
+    <video width="560" height="315" poster="imagens/capa-video.jpg" controls autoplay loop>
+        <source src="midia/Transito.mp4" type="video/mp4"></scource>
+        <source src="midia/Transito.webm" type="video/webm"></scource>
+        <source src="midia/Transito.mkv" type="video/mkv"></scource>
+        <source src="midia/transito.ogv" type="video/ogv"></scource> <!-- OGV não recomendado -->
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h2>Inserindo vídeos do Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=nV5tAKvEuXur-R6l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Inseridon vídeos do Vimeo</h2>
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/879115093?h=6868a18588" width="560" height="315" frameborder="0"    allowfullscreen></iframe>
+</body>
+</html>
