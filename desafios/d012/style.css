@@ -12,7 +12,7 @@
     padding: 0;
 }
 
-body{
+body {
     font-size: 3.5vw;
 }
 
@@ -41,7 +41,7 @@ header > p {
 header > p > a {
     color: white;
     font-family: var(--fonte0);
-    font-weight: 600;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -52,4 +52,28 @@ main {
 section {
     margin: 60px 30px;
     line-height: 1.8em;
+}
+
+.fundo-img1 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+
+.fundo-img2 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: var(--fonte0);
+    padding: 10px;
+}
+
+footer > p > a {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
 }
