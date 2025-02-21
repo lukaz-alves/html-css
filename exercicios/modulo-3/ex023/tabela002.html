@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -27,8 +28,22 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(128, 128, 128);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(128, 128, 128);
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: rgb(167, 165, 165);
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: rgb(211, 211, 211);
         }
 
         td.num {
@@ -55,7 +70,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <th scope="col" style="width: 50px;">População</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
